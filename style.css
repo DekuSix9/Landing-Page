@@ -106,9 +106,33 @@ main{
   color: #ff900e;
   font-weight: 700;
 }
-
-
-
+/* facts section */
+.facts-descreption{
+  margin-left: 40px;
+}
+.facts-card-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.facts-card-container .card{
+  border: 2px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  padding:30px;
+  
+}
+.facts-card-container .card-title{
+  color: #727272;
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+.facts-card-container .card-stats{
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 /* responsive style */
 /* mobile devices */
