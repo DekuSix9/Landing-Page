@@ -113,6 +113,7 @@ main{
   display: flex;
   margin-top: 130px;
   gap: 100px;
+  overflow: hidden;
 }
 .features .nav-title{
   border-left: 5px solid #ff900e;
@@ -129,6 +130,7 @@ main{
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.3);
   margin-left: 10px;
+  
 }
 .feature-img img{
   height: 90%;
@@ -143,6 +145,7 @@ main{
   text-align: center;
   position: relative;
   bottom: 100px;
+ 
 }
 .ten-years-badge h3{
   font-size: 4rem;
@@ -194,6 +197,18 @@ main{
 .sponsors-img-container img{
   width: 165px;
 }
+
+/* Footer section */
+.footer-container{
+  background-color: #FFF4E7;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+
+
+
 /* responsive style */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -221,6 +236,10 @@ main{
   }
   .facts-card-container{
     gap: 20px;
+  }
+  .footer-container{
+    padding: 5px;
+    padding-top: 10px;
   }
 }
 
